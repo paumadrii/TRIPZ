@@ -7,6 +7,14 @@ module.exports = {
     statusCode: 400,
     error: new Error("Username or password incorrects"),
   },
+  pass_length: {
+    statusCode: 400,
+    error: new Error("Password length must be at least 6"),
+  },
+  upperCase: {
+    statusCode: 400,
+    error: new Error("Password must contain a capital letter"),
+  },
   401: {
     statusCode: 401,
     error: new Error("Unauthorized"),
