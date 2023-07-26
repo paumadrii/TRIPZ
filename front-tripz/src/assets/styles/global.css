@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  height: 100vh;
+  width: 100%;
+}
+
+body {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+div.MuiPickersPopper-root[role='tooltip'] div.MuiDateRangeCalendar-root > div:first-child {
+  opacity: 0;
+}
